@@ -11,19 +11,19 @@ Only three boxes are being used.
 
 Maven is used to compile and run.
 
-First compile the program using:\
+First compile the program using:
 ```
 mvn compile
 ```
 
 Then use one of the following commands to run the compiled program
 
-To run with default number of tries (10 000 000):\
+To run with default number of tries (10 000 000):
 ```
 mvn exec:java -Dexec.mainClass="com.robinch.montyhall.client.Client"
 ```
 
-To run with a custom number of times replace `{NR_OF_TIMES}` with that custom number:\
+To run with a custom number of times replace `{NR_OF_TIMES}` with that custom number:
 ```
 mvn exec:java -Dexec.mainClass="com.robinch.montyhall.client.Client" -Dexec.args="{NR_OF_TIMES}"
 ```
